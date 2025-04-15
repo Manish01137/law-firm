@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.heading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.7;
+}
+.heading h1{
+    opacity: .8;
+}
+.second-head h5{
+    opacity: .7;
+    font-size: 15px;
+}
+.heading a{
+    text-decoration: none;
+}
+.about{
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: black;
+     
+}
+.team{
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.services{
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.location{
+    margin-top: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.blog{
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.contactus{
+    height: 5vh;
+    margin-top: 0px;
+   text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+.contact{
+    color: blue;
+}
+.hero-bar{
+    background-image: url(law3.png);
+    height: 125vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.get-touch{
+    font-size: 3rem;
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 30%;
+    margin-left: 38%;
+    background-color: #fff;
+}
+.get-touch a{
+    text-decoration: none;
+    color: black;
+}
+.get-touch :hover{
+   color: #fff;
+    background-color: #3B3C36;
+}
+.get :hover{
+      color: #fff;
+      background-color: #3B3C36;
+}
+.alaw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    color: #E5E4E2;
+    opacity: 1;
+}
+.bar{
+    font-size: 3.7rem;
+    color: #3B3C36;
+    opacity: .8;
+}
