@@ -66,7 +66,7 @@
     color: blue;
 }
 .hero-bar{
-    background-image: url(law3.png);
+    background-image: url(law9.png);
     height: 125vh;
     width: 100%;
     background-size: cover;
@@ -109,7 +109,69 @@
     opacity: 1;
 }
 .bar{
-    font-size: 3.7rem;
-    color: #3B3C36;
+    font-size: 2.8rem;
+   color: #3B3C36;
     opacity: .8;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.left-bar a{
+    text-decoration: none;
+    color: #0000FF;
+}
+.left-bar, .right-bar{
+    background-color: white;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    height: auto;
+}
+.right-bar img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+   border-radius: 8px;
+
+}
+.left-bar p{
+    font-size: 1.5rem;
+    padding-left: 10px;
+    
+    font-size: 18px;
+}
+.left-bar h4{
+    font-size: 1.5rem;
+    color: #0000FF;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.left-sec, .right-sec{
+
+    background-color: white;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    height: auto;
+}
+.left-sec img{
+    
+    border-radius: 8px;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 50vw;
+}
+.right-sec h3{
+   padding-top: 10px;
 }
