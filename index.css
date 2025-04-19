@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: serif;
 }
+body{
+    background-color: rgb(234, 246, 251);
+}
 /* body{
     display: flex;
     justify-content: center;
@@ -73,44 +76,58 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.get-touch{
-    font-size: 3rem;
-    margin-top: 15px;
-    text-transform: uppercase;
-    color: black;
-    text-decoration: none;
+
+.get{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.get-touch {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 7px 28px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
-    width: 30%;
-    margin-left: 38%;
-    background-color: #fff;
+    height: 70px;
+    width: 230px;
+    background: linear-gradient(to left, #5961A9 50%, #4f4a4a 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: white;
+    transition: background-position 0.5s ease;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.get-touch a{
+
+.get-touch:hover {
+    background-position: left bottom; 
+}
+
+.get-touch a {
     text-decoration: none;
-    color: black;
-}
-.get-touch :hover{
-   color: #fff;
-    background-color: #3B3C36;
-}
-.get :hover{
-      color: #fff;
-      background-color: #3B3C36;
+    color: white;
+    transition: color 0.2s ease;
 }
 .alaw{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 3rem;
-    color: #E5E4E2;
+    font-size: 4rem;
+    color: white;
     opacity: 1;
+    text-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 .bar{
-    font-size: 2.8rem;
-   color: #3B3C36;
+    font-size: 1.3rem;
+    color: #3B3C36;
     opacity: .8;
 }
 .info{
@@ -175,3 +192,78 @@
 .right-sec h3{
    padding-top: 10px;
 }
+/* strategic start */
+
+.strategic-container{
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+    background-color: rgb(198, 193, 193);
+}
+.heading-st{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height:auto;
+    font-size: 10rem;
+    margin-top: 25px;
+    color: #ffffff;
+    font-weight: bolder;    
+    text-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+
+}
+.left-st{
+    height: 1000px;
+    width: 38%;
+}
+.right-st{
+padding: 2rem;;
+height: 1000px;
+width: 72%;
+background-color: rgb(234, 246, 251);
+}
+.disc-text{
+    width: 90%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.head-text{
+font-size: 0.8rem;
+color: rgb(59, 59, 59);
+}
+.head-text h1{
+    margin-left: 40px;
+    font-weight: lighter;
+}
+.image-st{
+    height: 100%;
+    width: 100%;
+}
+.image-st img{
+    height: 100%;
+    width: 100%;
+}
+.right-description{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:10px;
+    align-items: flex-start;
+}
+.box{
+    margin-left: -20px;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    font-size: 1rem;
+    font-weight:lighter;
+    color: #5961A9;
+    margin-left: 60px;
+}
+.box-img{
+    height:150px ;
+    width:150px;
+    border-radius: 100%;
+}
+/* strategic end */
