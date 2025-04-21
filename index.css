@@ -275,16 +275,16 @@ width: 72%;
 background-color: rgb(234, 246, 251);
 }
 .disc-text{
-    width: 90%;
+    width: 82%;
     text-align: center;
     margin-bottom: 40px;
 }
 .head-text{
-font-size: 0.8rem;
-color: rgb(59, 59, 59);
+font-size: 0.9rem;
+color: #585859;
+font-weight: bolder;
 }
 .head-text h1{
-    margin-left: 40px;
     font-weight: lighter;
 }
 .image-st{
@@ -295,26 +295,113 @@ color: rgb(59, 59, 59);
     height: 100%;
     width: 100%;
 }
-.right-description{
+.right-description {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding:10px;
+    height: 800px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
     align-items: flex-start;
+    gap: 2%;
 }
 .box{
     margin-left: -20px;
-    padding: 10px;
     text-align: center;
-    width: 250px;
-    height: 250px;
-    font-size: .8rem;
+    width: 180px;
+    height: 180px;
+    font-size: .7rem;
     font-weight:lighter;
     color: #5961A9;
     margin-left: 60px;
 }
 .box-img{
-    height:150px ;
-    width:150px;
+    height:100px ;
+    width:100px;
     border-radius: 100%;
 }
 /* strategic end */
+
+/* consultation start */
+
+.cons-part1{
+    margin-top: 50px;
+    height: 350px;
+    background-color: #D8D8D8;;
+}
+.cons-part2{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #D8D8D8;
+    margin-bottom: 40px;
+}
+.cons-part2-content{
+    padding: 5rem;
+    height: 625px;
+    width:85% ;
+    background-color: white;
+}
+.cons-head{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #585859;
+}
+.cons-desc{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+    color: #3B3C36;
+    margin-bottom: 40px;
+}
+
+#para1, #para2, #para3 {
+    margin-top: 1.5rem;
+}
+.cons-desc a{
+    text-decoration: none;
+    color: blue;
+}
+.cons-desc a:hover{ 
+text-decoration: underline;
+}
+.cons-button{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.cons-booknow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 400px;
+    background-color:#1e277d;
+    font-size: 1.5rem;
+    text-align: center;
+    background: linear-gradient(to left, #5961A9 50%, #4f4a4a 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: background-position 0.5s ease;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cons-booknow:hover{
+    background-position: left bottom; 
+}
+.cons-booknow a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease;
+}
+
+/* consultation end */
+
+/* victories start  */
+
+
+
+ /* victories end */
