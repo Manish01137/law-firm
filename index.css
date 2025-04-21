@@ -186,9 +186,7 @@
 .left-bar a{
     text-decoration: none;
     color: #1e277d;
-     
-   
-
+    
 }
 .left-bar, .right-bar{
     background-color: white;
@@ -353,3 +351,92 @@ color: rgb(59, 59, 59);
     border-radius: 100%;
 }
 /* strategic end */
+
+/* conatact -Muskan CSS changes */
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgLaw{
+    height:400px;
+    width:700px;
+}
+
+.btn-section{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+.btn-section button {
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: start;
+    gap: 10px;
+    padding: 14px 20px;
+    font-size: 23px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #fff;
+    background-color:#5961A9;
+    word-spacing: 8px;
+}
+.main-content-box{
+    display: flex;
+    justify-content: center;
+    margin: 5rem auto 0 auto;
+    flex-wrap: wrap;
+}
+.left-box{
+    margin-left: 20px;
+}
+
+.left-box p{
+    width: 300px;
+    margin-left: 5rem;
+    font-size: 20px;
+    word-spacing: 5px;
+    margin-bottom: 5rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+.clock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:1rem ;
+    color: #1e277d;
+}
+
+.right-box, form{
+    height: 70%;
+    width: 50%;
+    margin-left:12rem;
+
+}
+.head-content, h1{
+    color: #1e277d;
+    margin-bottom:5px;
+}
+.head-content,p{
+    color: #3B3C36;
+    margin-bottom: 2rem;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
