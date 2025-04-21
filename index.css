@@ -367,7 +367,59 @@ color: rgb(59, 59, 59);
 /*  law fmaily start */
 .law-family{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+}
+.law-right{
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    align-items: center;
+    justify-content: center;
+}
+.law-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #5961A9;
+    margin-top: 20px;
+}
+.family-law{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+     
+    height: auto;
+    border: 1px solid black;
+}
+.estate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1px;
+    border: 1px solid black;
+}
+.immigration-law{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6px;
+    border: 1px solid black;
+}
+.civil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 7px;
+    border: 1px solid black;
+    width: 50%;
+}
+.strat-law{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 35px;
+    border: 1px solid black;
 }
