@@ -187,7 +187,7 @@
     text-decoration: none;
     color: #1e277d;
      
-   
+  
 
 }
 .left-bar, .right-bar{
@@ -195,7 +195,7 @@
     flex: 1;
     padding: 20px;
     box-sizing: border-box;
-    height: 60vh;
+    height: auto;
 }
 .left-bar{
     margin-top: 25px;
@@ -236,13 +236,13 @@
 }
 .left-sec, .right-sec{
 
-     flex: 1;
+      
      box-sizing: border-box;
 }
 .left-sec img{
    width: 50vw;
-   height: auto;
-   object-fit: cover;
+   height: 100vh;
+   /* object-fit: cover; */
    border-radius: 8px;
     /* border-radius: 8px;
     background-color: #ffffff;
@@ -259,9 +259,7 @@
    font-size: 30px;
    background-color: #ffffff;
    border-radius: 10px;
-   color: #3B3C36;
-   
-   
+   color: #3B3C36; 
 }
 .inside-sec{
     margin-left: 10px;
@@ -273,6 +271,19 @@
     padding-left: 16px;
     font-size: 20px;
     color: #1e277d;
+}
+.right-sec, p{
+    padding-left: 16px;
+    font-size: 20px;
+}
+.orderlist{
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+.orderlist , li{
+      
+     font-size: 18px;
 
 }
 /* strategic start */
@@ -353,3 +364,10 @@ color: rgb(59, 59, 59);
     border-radius: 100%;
 }
 /* strategic end */
+/*  law fmaily start */
+.law-family{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
