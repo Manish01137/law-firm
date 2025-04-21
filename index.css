@@ -4,9 +4,9 @@
     box-sizing: border-box;
     font-family: serif;
 }
-body{
+/* body{
     background-color: rgb(234, 246, 251);
-}
+} */
 /* body{
     display: flex;
     justify-content: center;
@@ -242,11 +242,14 @@ body{
 }
 /* strategic start */
 
-.strategic-container{
+.strategic-container {
     display: flex;
     flex-direction: row;
     height: 1000px;
     background-color: rgb(198, 193, 193);
+    border-radius: 15px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4), 
+                0 10px 10px rgba(0, 0, 0, 0.2);
 }
 .heading-st{
    display: flex;
