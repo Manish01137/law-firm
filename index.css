@@ -454,15 +454,38 @@ text-decoration: underline;
 
 
 /*  law fmaily start */
-.law-family{
+.law-service{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #fff;
 }
-.imgLaw{
-    height:400px;
-    width:700px;
+.mainn-law, h2{
+    color: #1e277d;
+   
 }
+.family-law{
+     
+     color: #5961A9;
+      
+     font-size: 26px;
+}
+.estate-law{
+    border-top: 1px;
+    margin-top: 10px;
+    
+}
+.immigration-law{
+    margin-top: 10px;
+}
+.civil-law{
+    margin-top: 10px;
+}
+.strata-law{
+    margin-top: 10px;
+}
+ 
+/* law-family end */
 
 .btn-section{
     display: flex;
