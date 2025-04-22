@@ -373,6 +373,10 @@ font-weight: bolder;
     height: 350px;
     background-color: #D8D8D8;;
 }
+.cons-part1 img{
+    height: auto;
+    width: 100%;
+}
 .cons-part2{
     display: flex;
     align-items: center;
