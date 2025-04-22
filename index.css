@@ -185,7 +185,7 @@
 }
 .left-bar a{
     text-decoration: none;
-    color: #0000FF;
+    color: #1e277d;
 }
 .left-bar, .right-bar{
     background-color: white;
@@ -194,51 +194,94 @@
     box-sizing: border-box;
     height: auto;
 }
+.left-bar{
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align: center;
+}
 .right-bar img{
-    max-width: 100%;
-    height: auto;
+   max-width: 100%;
+    
     object-fit: cover;
    border-radius: 8px;
+   height: 60vh;
+   padding-left: 60px;
 
 }
 .left-bar p{
     font-size: 1.5rem;
     padding-left: 10px;
-    
-    font-size: 18px;
+    padding-top: 20px;
+    font-size: 19px;
 }
 .left-bar h4{
     font-size: 1.5rem;
-    color: #0000FF;
+    color: #1e277d;
     margin-bottom: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
 }
 .second-info{
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+     
 }
 .left-sec, .right-sec{
 
-    background-color: white;
-    flex: 1;
-    padding: 20px;
-    box-sizing: border-box;
-    height: auto;
+      
+     box-sizing: border-box;
 }
 .left-sec img{
-    
-    border-radius: 8px;
+   width: 50vw;
+   height: 100vh;
+   /* object-fit: cover; */
+   border-radius: 8px;
+    /* border-radius: 8px;
     background-color: #ffffff;
     background-size: cover;
     background-position: center;
     height: auto;
-    width: 50vw;
+    width: 50vw; */
+   
 }
-.right-sec h3{
-   padding-top: 10px;
+.right-sec ,h3{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-size: 30px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   color: #3B3C36; 
+}
+.inside-sec{
+    margin-left: 10px;
+    border-bottom: 2px solid #565656;
+    width: 40%;
+}
+.right-sec, h4{
+    padding-top: 20px;
+    padding-left: 16px;
+    font-size: 20px;
+    color: #1e277d;
+}
+.right-sec, p{
+    padding-left: 16px;
+    font-size: 20px;
+}
+.orderlist{
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+.orderlist , li{
+      
+     font-size: 18px;
+
 }
 /* strategic start */
 
@@ -405,3 +448,147 @@ text-decoration: underline;
 
 
  /* victories end */
+
+
+/*  law fmaily start */
+.law-family{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgLaw{
+    height:400px;
+    width:700px;
+}
+
+.btn-section{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+.btn-section button {
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: start;
+    gap: 10px;
+    padding: 14px 20px;
+    font-size: 23px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #fff;
+    background-color:#5961A9;
+    word-spacing: 8px;
+}
+.main-content-box{
+    display: flex;
+    justify-content: center;
+    margin: 5rem auto 0 auto;
+    flex-wrap: wrap;
+}
+.left-box{
+    margin-left: 20px;
+}
+
+.left-box p{
+    width: 300px;
+    margin-left: 5rem;
+    font-size: 20px;
+    word-spacing: 5px;
+    margin-bottom: 5rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+.clock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:1rem ;
+    color: #1e277d;
+}
+
+.right-box, form{
+    height: 70%;
+    width: 50%;
+    margin-left:12rem;
+
+}
+.head-content, h1{
+    color: #1e277d;
+    margin-bottom:5px;
+}
+.head-content,p{
+    color: #3B3C36;
+    margin-bottom: 2rem;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.law-right{
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    align-items: center;
+    justify-content: center;
+}
+.law-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #5961A9;
+    margin-top: 20px;
+}
+.family-law{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+     
+    height: auto;
+    border: 1px solid black;
+}
+.estate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1px;
+    border: 1px solid black;
+}
+.immigration-law{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6px;
+    border: 1px solid black;
+}
+.civil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 7px;
+    border: 1px solid black;
+    width: 50%;
+}
+.strat-law{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 35px;
+    border: 1px solid black;
+}
+
