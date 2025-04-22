@@ -480,15 +480,99 @@ text-decoration: underline;
 
 
 /*  law fmaily start */
+.law-service{
+
 .law-family{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #fff;
 }
-.imgLaw{
-    height:400px;
-    width:700px;
+.mainn-law, h2{
+    color: #1e277d;
+   
 }
+.family-law{
+     
+     color: #5961A9;
+      
+     font-size: 26px;
+}
+.estate-law{
+    border-top: 1px;
+    margin-top: 10px;
+    
+}
+.immigration-law{
+    margin-top: 10px;
+}
+.civil-law{
+    margin-top: 10px;
+}
+.strata-law{
+    margin-top: 10px;
+}
+ 
+/* law-family end */
+.law-right{
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    align-items: center;
+    justify-content: center;
+}
+.law-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #5961A9;
+    margin-top: 20px;
+}
+.family-law{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+     
+    height: auto;
+    border: 1px solid black;
+}
+.estate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1px;
+    border: 1px solid black;
+}
+.immigration-law{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6px;
+    border: 1px solid black;
+}
+.civil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 7px;
+    border: 1px solid black;
+    width: 50%;
+}
+.strat-law{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 35px;
+    border: 1px solid black;
+}
+
+/*  law fmaily end */
+
+
+
+/* muskanStart*/
 
 .btn-section{
     display: flex;
@@ -567,57 +651,4 @@ form textarea {
     box-sizing: border-box;
 }
 
-.law-right{
-    width: 100%;
-    padding: 20px;
-    background-color: #f9f9f9;
-    align-items: center;
-    justify-content: center;
-}
-.law-heading{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    color: #5961A9;
-    margin-top: 20px;
-}
-.family-law{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 30px;
-     
-    height: auto;
-    border: 1px solid black;
-}
-.estate{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 1px;
-    border: 1px solid black;
-}
-.immigration-law{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 6px;
-    border: 1px solid black;
-}
-.civil{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 7px;
-    border: 1px solid black;
-    width: 50%;
-}
-.strat-law{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 35px;
-    border: 1px solid black;
-}
-
+/* muskanEnd */
