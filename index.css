@@ -453,7 +453,7 @@ text-decoration: underline;
 /* victories start  */
 .victory-container{
     margin-top:-50px;
-    background-color: #D8D8D8;
+    background-color: #E5E6EB;
     height: auto;
     display: flex;
     align-items: center;
@@ -462,11 +462,11 @@ text-decoration: underline;
     flex-direction: column;
     padding: 2rem;
 }
-.vict-section{
+.vict-slider{
     margin-top: 50px;
     margin-bottom: 45px;
     padding:1rem;
-    height:300px;
+    height:auto;
     width: 60%;
     background-color: #fff;
 }
@@ -476,13 +476,289 @@ text-decoration: underline;
     font-weight: bolder;    
     text-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
 }
+
+    /* Slider container */
+    .vict-slider {
+        height: 100%;
+        width: 100%;
+        max-width: 900px;
+        position: relative;
+        overflow: hidden;
+        overflow: hidden;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4), 
+        0 10px 10px rgba(0, 0, 0, 0.2);
+      }
+  
+      /* Hide radio buttons */
+      input[type="radio"] {
+        display: none;
+      }
+  
+      /* Slide container */
+      .slides {
+        display: flex;
+        transition: transform 1s ease;
+        width: 100%;
+      }
+  
+      /* Individual slide */
+      .slide {
+        min-width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap:1.5rem;
+        color:#585859;
+        overflow: hidden;
+        text-align: center;
+      }
+
+      .slide h2{
+        margin-top: -40px;
+        font-size: 1.5rem;
+        font-weight: 100;
+      }
+      .slide h1{
+        font-size: 2rem;
+        color: #5961A9;
+      }
+      .slide p{
+        font-size: 1rem;
+        margin-top: 20px;
+        width: 90%;
+      }
+  
+      /* Navigation dots */
+      .navigation {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 10px;
+      }
+  
+      .nav-dot {
+        width: 12px;
+        height: 12px;
+        background-color: rgba(77, 77, 77, 0.5);
+        border-radius: 50%;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+  
+      .nav-dot:hover {
+        background-color: #5961A9;
+      }
+  
+      /* Slide change functionality using radio buttons */
+      #slide1:checked ~ .slides {
+        transform: translateX(0%);
+      }
+  
+      #slide2:checked ~ .slides {
+        transform: translateX(-100%);
+      }
+  
+      #slide3:checked ~ .slides {
+        transform: translateX(-200%);
+      }
+  
+      #slide4:checked ~ .slides {
+        transform: translateX(-300%);
+      }
+  
+      /* Active state for dots */
+      #slide1:checked ~ .navigation label:nth-child(1),
+      #slide2:checked ~ .navigation label:nth-child(2),
+      #slide3:checked ~ .navigation label:nth-child(3),
+      #slide4:checked ~ .navigation label:nth-child(4) {
+        background-color: #5961A9;
+      }
+
  /* victories end */
 
+/* client review box start */
+.client-review{
+    height: 600px;
+    background-color: #5961A9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.client-contents{
+    padding: 4rem;
+    gap:2rem;
+    height: 600px;
+    width: 70%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: -10px 0 15px rgba(0, 0, 0, 0.3),  /* left shadow */
+    10px 0 15px rgba(0, 0, 0, 0.3);  /* right shadow */
+
+}
+.client-contents h1{
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.client-contents p{
+    margin-top: 30px;
+}
+.testimonial-container{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial{
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: linear-gradient(to left, #5961A9 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: background-position 0.5s ease;
+    cursor: pointer;
+}
+.testimonial:hover {
+    background-position: left bottom; 
+   
+}
+.testimonial:hover a{
+    color: #5961A9;
+}
+.testimonial a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease;
+}
+.line-with-stars {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .line {
+    flex: 1;
+    height: 1px;
+    background-color: white;
+  }
+
+  .stars {
+    margin: 0 10px;
+    color: gold;
+    font-size: 20px;
+  }
+/* client review box end */
+
+
+/* connect start */
+.connect-container{
+    padding: 4rem;
+    height: auto;
+    background-color: #E5E6EB;
+}
+.connect-contact{
+    text-align:center;
+}
+.connect-contact h1{
+    font-size: 10rem;
+    color: #ffffff;
+    font-weight: bolder;    
+    text-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+.connect-contact-items{
+    margin-top: 40px;
+    gap: 3rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.connect-call , .connect-email{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap:10%;
+}
+.connect-email{
+    margin-left: 50px;
+}
+.connect-link a{
+text-decoration: none; 
+font-size: 1.5rem;
+font-weight: 500;
+color: #4a539c;
+}
+.connect-logo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.connect-desc-list {
+    margin-top: -50px;
+    height: 180px;
+    background-color: #E5E6EB;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.connect-list {
+    width: 70%;
+    padding-left: 20px; 
+}
+
+.connect-list ol {
+    list-style-type: disc; /* Adds the dot bullets */
+    padding-left: 20px;
+}
+
+.connect-list p {
+    font-size: 15px;
+    margin-left: 0;
+    color: #3B3C36;
+}
+
+hr{
+border: 0;
+height: 2.5px;
+background-color: rgb(187, 185, 185); 
+width: 70%; 
+margin: 30px auto; 
+}
+
+/* connect end */
+
+
+
+/* footerṢtart */
+.footer-desc{
+height: 800px;
+background-color: #E5E6EB;
+}
+/* footerEnd */
 
 /*  law fmaily start */
-.law-service{
-
-
 .law-family{
     display: flex;
     align-items: center;
