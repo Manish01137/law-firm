@@ -868,7 +868,30 @@ background-color: #E5E6EB;
     list-style-type: none;
     margin-bottom: 10px;
     text-decoration: none;
-    
+}
+details summary{
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    padding-left: 20px;
+}
+details summary::-webkit-details-marker{
+    display: none;
+}
+details summary::before{
+    content: "+";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    transition: transform 0.1s ,font-size 0.1s , color 0.1s ;
+    color: #5961A9;
+}
+details summary:hover::before{
+    font-size: 24px;
+    color: #1e277d;
+}
+details[open] summary::before{
+    content: "-";
 }
 .civil-law{
     display: flex;
