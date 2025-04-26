@@ -754,11 +754,68 @@ margin: 30px auto;
 
 /* footerṢtart */
 .footer-desc{
-height: 800px;
+height: auto;
+/* background-color: #E5E6EB; */
 background-color: #E5E6EB;
+ 
+}
+.footer-m{
+    display: flex;
+    background-color: #E5E6EB;
+    justify-content: space-evenly;
+    
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.abutalaw-m{
+   background-color:#E5E6EB;
+}
+.blog-m :hover a{
+    text-decoration: underline;
 }
 /* footerEnd */
+/* footer-lastt-start */
+.footer-last{
+    content:"2025 ALaw Group. All rights reserved | Sitemap | Disclaimer";
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #8087c8;
+    background-color: #565656;
+}
 
+/* footer-last-end */
+/* social-meida-start */
+.social-media-m{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     background-color: #E5E6EB;
+}
+
+ .media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E6EB;
+    color: #40468a;
+} 
+ 
+.account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #40468a;
+}
+.account :hover{
+    color: #3B3C36;
+}
+/* social-media-end */
 /*  law fmaily start */
 .law-service{
     display: flex;
