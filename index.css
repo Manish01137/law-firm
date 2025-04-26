@@ -934,203 +934,186 @@ details[open] summary::before{
 
 
 /* muskanStart*/
-
-.contact{
+.contacti{
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    opacity: 0.9;
-
+}
+.imgLawMe{
+    height:300px;
+    width: 600px;
 }
 
-.btn-section{
+.btn-section {
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
+    margin-top: 2rem;
 }
+
 .btn-section button {
-    margin-top:10px;
+    margin-top: 10px;
     display: inline-flex;
-    align-items: start;
-    gap: 5px;
-    padding: 14px 20px;
-    font-size: 23px;
-    font-weight: bold;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 28px;
+    font-size: 22px;
+    font-weight: 600;
     border: none;
-    border-radius: 10px;
+    border-radius: 12px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
     color: #fff;
-    background-color:#5961A9;
+    background-color: #5961A9;
     word-spacing: 8px;
 }
-.main-content-box{
+
+.btn-section button:hover {
+    background-color: #40468a;
+    transform: translateY(-3px);
+}
+
+.main-content-box {
     display: flex;
     justify-content: center;
     margin: 2rem auto 0 auto;
     flex-wrap: wrap;
+    gap: 3rem;
+    padding: 0 2rem;
 }
-.left-box{
-    margin-left: 20px;
+.left-box {
+    flex: 1;
+    max-width: 650px;
 }
 
-.left-box p{
-    width: 300px;
-    margin-left: 5rem;
-    font-size: 20px;
-    word-spacing: 5px;
-    margin-bottom: 5rem;
-    line-height: 1.6;
+.left-box p {
+    font-size: 18px;
+    word-spacing: 3px;
+    margin-bottom: 4rem;
+    line-height: 1.9;
     text-align: justify;
+    color: #444;
+}
+.timing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
 }
 .clock{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom:1rem ;
+    margin-bottom: 1rem;
     color: #1e277d;
+    gap:2px;
 }
 
-/* Right Box Styling */
 .right-box {
-    width: 50%;
-    margin-left: 10rem;
-    background-color: #f9f9f9;
-    padding: 2rem 3rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex: 1;
+    min-width: 500px;
+    max-width: 600px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    width: 100%;
+    background: rgba(255, 255, 255, 0.65); 
+    backdrop-filter: blur(15px);
+    padding: 3rem 2.5rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease;
+    border-bottom: 2px solid black;
+    
 }
 
 .head-content h1 {
     color: #1e277d;
-    font-size: 24px;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .head-content p {
-    color: #3b3c36;
+    color: #555;
+    margin-bottom: 1.5rem;
     font-size: 16px;
-    line-height: 1.6;
+    text-align: center;
 }
 
-.user-name,
-.user-contact,
-.user-phoneno,
-.user-email,
-.user-help,
-.info {
+.user-contact{
+    height: 5rem;
+}
+.radio-btnn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form textarea {
     width: 100%;
-}
-
-.user-name label,
-.user-contact label,
-.user-email label,
-.user-help label {
-    font-weight: 600;
-    color: #1e277d;
-    font-size: 16px;
-    margin-bottom: 0.5rem;
-    margin-top: 1rem;
-}
-
-/* Input Styling */
-.user-name input,
-.user-contact input,
-.user-email input,
-.user-help textarea {
-    width: 100%;
-    padding: 12px 16px;
+    padding: 14px 16px;
+    margin-top: 6px;
+    margin-bottom: 1.5rem;
     border: 1px solid #ccc;
-    border-radius: 6px;
+    border-radius: 8px;
     font-size: 15px;
+    background-color: #fff;
     box-sizing: border-box;
-    margin-bottom: 1rem;
+    transition: border-color 0.3s ease;
 }
 
-.user-help textarea {
-    min-height: 120px;
+form input[type="text"]:focus,
+form input[type="tel"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #5961A9;
+    outline: none;
+}
+
+form textarea {
+    min-height: 100px;
     resize: vertical;
 }
 
-/* Radio Button Styling */
-.user-contact input[type="radio"] {
-    margin-left: 0; /* Remove margin to bring closer to the label */
-    margin-top: 5px; /* Adjust the top margin for alignment */
-    margin-right: 5px; /* Small space between radio and text */
-    vertical-align: middle; /* Align radio button with text vertically */
+.info-m{
+    display: flex;
+    flex-direction: column;
 }
-
-/* Phone Number and Email Fields */
-.user-phoneno input,
-.user-email input {
-    width: 100%;
-    padding: 12px 16px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 15px;
-    box-sizing: border-box;
-    margin-bottom: 1rem;
-}
-
-/* Submit Button Styling */
-.user-submit button {
-    background-color: #5961A9;
-    color: #fff;
-    padding: 14px 20px;
-    font-size: 18px;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.user-submit button:hover {
-    background-color: #4a539c;
-}
-
-/* Checkbox Styling */
-.info label {
-    font-weight: 600;
-    color: #1e277d;
-    font-size: 16px;
-}
-
-.info input[type="checkbox"] {
-    margin-right: 10px;
-}
-
-.info label,
 .user-submit {
+    text-align: center;
     margin-top: 1rem;
 }
 
-.user-phoneno p,
-.user-email p {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 0;
+.user-submit button {
+    background-color: #1e277d;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* Responsive Fix */
-@media (max-width: 768px) {
-    .right-box {
-        width: 80%;
-        margin-left: 0;
-        padding: 1.5rem;
-    }
+.user-submit button:hover {
+    background-color: #5961A9;
+    transform: translateY(-2px);
 }
+footer{
+    height: 50px;
+    background-color:#8087c8 ;
+}
+ 
+  
+ 
+  
+ 
+  
 
+ 
 /* muskanEnd */
