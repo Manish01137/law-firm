@@ -607,6 +607,7 @@ text-decoration: underline;
     margin-bottom: 50px;
     font-size: 2.5rem;
     text-transform: uppercase;
+    color: white;
 }
 .client-contents p{
     margin-top: 30px;
