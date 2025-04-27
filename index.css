@@ -804,13 +804,13 @@ background-color: #E5E6EB;
     justify-content: center;
      background-color: #E5E6EB;
 }
-
  .media{
     display: flex;
-    align-items: center;
+   align-items: center;
     justify-content: center;
     background-color: #E5E6EB;
     color: #40468a;
+    margin-bottom: 20px;
 } 
  
 .account{
@@ -818,6 +818,8 @@ background-color: #E5E6EB;
     align-items: center;
     justify-content: center;
     color: #40468a;
+    margin-bottom: 20px;
+    font-size: 2rem;
 }
 .account :hover{
     color: #3B3C36;
